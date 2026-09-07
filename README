@@ -1,0 +1,115 @@
+# SkillCraft Technology - Task 02
+
+## Titanic Dataset - Data Cleaning and Exploratory Data Analysis
+
+### 📌 Project Overview
+
+This project was completed as part of my Data Science internship at SkillCraft Technology.
+
+The objective of this task was to perform data cleaning and Exploratory Data Analysis (EDA) on the Titanic dataset. The analysis focuses on understanding passenger characteristics, survival patterns, relationships between variables, and important trends in the dataset.
+
+### 📊 Dataset
+
+The Titanic dataset was obtained from Kaggle.
+
+The dataset contains information about passengers including:
+
+- Passenger ID
+- Survival status
+- Passenger class
+- Name
+- Gender
+- Age
+- Number of siblings/spouses aboard
+- Number of parents/children aboard
+- Ticket
+- Fare
+- Port of embarkation
+- Cabin information
+
+The training dataset contains 891 passenger records.
+
+### 🛠️ Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- VS Code
+- Jupyter/Matplotlib visualizations
+
+### 🧹 Data Cleaning
+
+The following data cleaning techniques were performed:
+
+1. Checked the dataset shape and structure.
+2. Checked for missing values.
+3. Checked for duplicate records.
+4. Filled missing `Age` values using the median age.
+5. Filled missing `Embarked` values using the mode.
+6. Removed the `Cabin` column because it contained a large number of missing values.
+7. Removed duplicate records.
+8. Verified the dataset after cleaning.
+
+### 🔍 Exploratory Data Analysis
+
+The following analyses were performed:
+
+#### 1. Overall Survival Analysis
+
+Analyzed the number and percentage of passengers who survived and did not survive.
+
+#### 2. Survival by Gender
+
+Compared survival rates between male and female passengers to identify differences in survival patterns.
+
+#### 3. Survival by Passenger Class
+
+Analyzed survival rates across first, second, and third-class passengers.
+
+#### 4. Age Distribution
+
+Created a histogram to understand the distribution of passenger ages.
+
+#### 5. Age vs Survival
+
+Used a box plot to compare the age distribution of survivors and non-survivors.
+
+#### 6. Fare Distribution
+
+Created a histogram to understand the distribution of passenger ticket fares.
+
+#### 7. Correlation Analysis
+
+Created a correlation heatmap to identify relationships between numerical variables such as:
+
+- Survived
+- Pclass
+- Age
+- SibSp
+- Parch
+- Fare
+
+### 📈 Key Findings
+
+- The Titanic dataset contains 891 passenger records.
+- Passenger survival varied considerably between different groups.
+- Gender showed a noticeable relationship with survival.
+- Passenger class was also strongly associated with survival.
+- First-class passengers generally had a higher survival rate than passengers in lower classes.
+- The average age of non-survivors was approximately 30.03 years, while the average age of survivors was approximately 28.29 years.
+- Average fare differed considerably between passenger classes.
+- First-class passengers paid substantially higher fares on average than second- and third-class passengers.
+- The correlation heatmap helped identify relationships among the numerical variables.
+
+### 📊 Visualizations
+
+The following visualizations were created:
+
+1. `survival_count.png`
+2. `survival_by_gender.png`
+3. `survival_by_class.png`
+4. `age_distribution.png`
+5. `age_vs_survival.png`
+6. `fare_distribution.png`
+7. `correlation_heatmap.png`
